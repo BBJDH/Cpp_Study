@@ -15,27 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="211027_extern_static_final\상속\main.cpp">
+    <ClCompile Include="211103_템플릿\main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="211027_extern_static_final\상속\Animal.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211027_extern_static_final\상속\Cat.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211027_extern_static_final\상속\Dog.cpp">
+    <ClCompile Include="211103_템플릿\Template.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="211027_extern_static_final\상속\Animal.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211027_extern_static_final\상속\Cat.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211027_extern_static_final\상속\Dog.h">
+    <ClInclude Include="211103_템플릿\Template.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

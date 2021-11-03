@@ -29,18 +29,18 @@ int main()
 		17.3f,
 		8.47f);
 
-	//abstract 추상클래스의 포인터는 생성 허용
-	Animal* const animals[2]  //업 캐스팅
-	{						//하위 형식이 상위 형식으로 캐스트
-							//반대는 다운캐스트
-		&cat,
-		&dog
-	};
+	////abstract 추상클래스의 포인터는 생성 허용
+	//Animal* const animals[2]  //업 캐스팅
+	//{						//하위 형식이 상위 형식으로 캐스트
+	//						//반대는 다운캐스트
+	//	&cat,
+	//	&dog
+	//};
 
-	for (size_t i = 0; i < 2; ++i)
-	{
-		animals[i]->cry();
-	}
+	//for (size_t i = 0; i < 2; ++i)
+	//{
+	//	animals[i]->cry();
+	//}
 	
 	return 0;
 }

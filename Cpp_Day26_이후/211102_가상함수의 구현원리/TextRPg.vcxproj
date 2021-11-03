@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -18,18 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="211103_템플릿\main.cpp" />
-    <ClCompile Include="211103_템플릿\Template.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="211103_템플릿\Template.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f2e49925-9864-4045-8ee2-1b1b772a3dfa}</ProjectGuid>
-    <RootNamespace>CppDay26이후</RootNamespace>
+    <ProjectGuid>{87751046-3458-4d85-9978-ff39e768536c}</ProjectGuid>
+    <RootNamespace>TextRPg</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -145,6 +138,35 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Bow.h" />
+    <ClInclude Include="Goblin.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Orc.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Simulation.h" />
+    <ClInclude Include="Smith.h" />
+    <ClInclude Include="Staff.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="Troll.h" />
+    <ClInclude Include="Weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bow.cpp" />
+    <ClCompile Include="Goblin.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Orc.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Simulation.cpp" />
+    <ClCompile Include="Smith.cpp" />
+    <ClCompile Include="Staff.cpp" />
+    <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="Troll.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
