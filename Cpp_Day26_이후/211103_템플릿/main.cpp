@@ -3,13 +3,13 @@
 #include<malloc.h>
 
 #pragma region 스터디
-//void swap(int* const a, int* const b)
-//{
-//
-//	int temp = *a;
-//	*a = *b;
-//	*b = temp;
-//}
+void swap(int* const a, int* const b)
+{
+
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
 //void swap2(int* a, int* b)
 //{
 //
@@ -31,17 +31,17 @@
 
 int main()
 {
-	//char str[3][10]= {"나는","아이언맨","입니다."} ;
-	//char(* p)[10] = str;
-	//std::cout << *(p+1) << std::endl;
+	int* a = new int{ 5 };
+	int* b = new int{ 10 };
+	swap(a, b);
+	std::cout << *a << *b << std::endl;
 
 
-	
-	char const *const str = add("test", "study");
+	//char const *const str = add("test", "study");
 
-	std::cout << str << std::endl;
+	//std::cout << str << std::endl;
 
-	delete[] str;
+	//delete[] str;
 
 
 	
