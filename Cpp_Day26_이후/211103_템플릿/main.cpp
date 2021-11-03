@@ -3,13 +3,44 @@
 #include<malloc.h>
 
 #pragma region 스터디
-void swap(int* const a, int* const b)
-{
-
-	int temp = *a;
-	*a = *b;
-	*b = temp;
-}
+//void allocate(char** str)
+//{
+//	*str = new char[5]{"test"};
+//}
+//void printarr(int const* const arr, int const size)
+//{
+//	//arr = nullptr;
+//
+//	for (size_t i = 0; i < size; ++i)
+//		std::cout<<arr[i]<<" ";
+//}
+//void printarr2(int const*const & const arr, int const size)
+//{
+//	//arr = nullptr;
+//	for (size_t i = 0; i < size; ++i)
+//		std::cout << arr[i] << " ";
+//}
+//void printarr3(int const arr[], int const size)
+//{
+//	arr = nullptr;
+//
+//	for (size_t i = 0; i < size; ++i)
+//		std::cout << arr[i] << " ";
+//}
+//void printarr4(int const (&arr)[5])
+//{
+//	//arr = nullptr;
+//
+//	for (size_t i = 0; i < 5; ++i)
+//		std::cout << arr[i] << " ";
+//}
+//void swap(int* const a, int* const b)
+//{
+//
+//	int temp = *a;
+//	*a = *b;
+//	*b = temp;
+//}
 //void swap2(int* a, int* b)
 //{
 //
@@ -31,11 +62,16 @@ void swap(int* const a, int* const b)
 
 int main()
 {
-	int* a = new int{ 5 };
-	int* b = new int{ 10 };
-	swap(a, b);
-	std::cout << *a << *b << std::endl;
+#pragma region 스터디
+	//char* str = nullptr;
+//allocate(&str);
+//std::cout << str << std::endl;
+//delete[] str;
 
+	//int arr[5] = { 1,2,3,4,5 };
+	//printarr4(arr);
+
+#pragma endregion
 
 	//char const *const str = add("test", "study");
 
