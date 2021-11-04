@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="211103_템플릿\main.cpp" />
-    <ClCompile Include="211103_템플릿\Template.cpp" />
+    <ClCompile Include="211104\main.cpp" />
+    <ClCompile Include="211104\Template.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="211103_템플릿\Template.h" />
+    <ClInclude Include="211104\Template.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
