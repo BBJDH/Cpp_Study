@@ -1,14 +1,14 @@
 #include<iostream>
 #include"Player.h"
 #include"Smith.h"
-//#include"Weapon.h"
-//#include"Monster.h"
+#include"Weapon.h"
+#include"Monster.h"
 #include"Sword.h"
 #include"Staff.h"
 #include"Bow.h"
-//#include"Orc.h"
-//#include"Troll.h"
-//#include"Goblin.h"
+#include"Orc.h"
+#include"Troll.h"
+#include"Goblin.h"
 //??? 이렇게 헤더 줄줄이 있는게 맞나?
 
 #include"Simulation.h"
@@ -22,17 +22,17 @@ int main()
 #pragma region player-weapon 테스트
 	//무기 각각의 헤더 필요
 	//Bow const*const bow = new Bow;
-	Sword sword;
-	Bow bow;
-	Staff staff;
-	Player player;
-	Weapon *w;
-	w = &bow;
-	player.equip(w);
-	//sword.playmotion();
+	//Sword sword;
+	//Bow bow;
+	//Staff staff;
+	//Player player;
+	//Weapon *w;
+
+	//player.equip(w);
+
 	//Player player(&sword, 100);
 	//player.printweapon();
-	//player = Player(&bow, 100);
+
 	//player.printweapon();
 	//player = Player(&staff, 100);
 	//player.printweapon();
@@ -63,8 +63,8 @@ int main()
 	//goblin.printbrood();
 	//std::cout << std::endl;
 	//goblin.printweapon();
-
-
+	Orc orc;
+	printblood(orc);
 #pragma endregion
 
 #pragma region 전투 시뮬레이션테스트
@@ -102,8 +102,12 @@ int main()
 	//player.printweapon();
 
 	//std::cout << sizeof(s) << std::endl;
+	
 #pragma endregion
 
+	
 
 	return 0;
 }
+
+

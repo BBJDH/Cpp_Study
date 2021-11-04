@@ -19,11 +19,33 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="211104\main.cpp" />
-    <ClCompile Include="211104\Template.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Bow.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Goblin.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\main.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Monster.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Orc.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Player.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Random.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Simulation.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Smith.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Staff.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Sword.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Troll.cpp" />
+    <ClCompile Include="211102_가상함수의 구현원리\Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="211104\Template.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Bow.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Goblin.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Monster.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Orc.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Player.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Random.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Simulation.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Smith.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Staff.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Sword.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Troll.h" />
+    <ClInclude Include="211102_가상함수의 구현원리\Weapon.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

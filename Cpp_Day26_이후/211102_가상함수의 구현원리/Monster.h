@@ -17,7 +17,7 @@ protected:
 	void selectweapon(unsigned const weaponnum);
 
 private:
-	void movecursor(int const x, int const y);
+	void movecursor(short x, short y);
 
 	//void selectbrood(unsigned const broodnum);
 	//Monster* monster;

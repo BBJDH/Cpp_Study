@@ -42,7 +42,7 @@ void Simulation::play()
 void Simulation::attackmonster()const
 {
 	monster->takedamege(player->attack());
-
+	
 
 }
 

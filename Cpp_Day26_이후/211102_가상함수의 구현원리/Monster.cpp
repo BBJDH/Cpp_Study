@@ -88,7 +88,7 @@ bool Monster::islive() const
 		return true;
 	return false;
 }
-void Monster::movecursor(int const x, int const y)
+void Monster::movecursor(short x, short y)
 {
 	COORD position = { x, y };
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), position);
