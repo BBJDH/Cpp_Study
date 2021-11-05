@@ -63,8 +63,7 @@ int main()
 	//goblin.printbrood();
 	//std::cout << std::endl;
 	//goblin.printweapon();
-	Orc orc;
-	printblood(orc);
+
 #pragma endregion
 
 #pragma region 전투 시뮬레이션테스트
@@ -103,6 +102,7 @@ int main()
 
 	//std::cout << sizeof(s) << std::endl;
 	
+	Smith<Sword> sword;
 #pragma endregion
 
 	

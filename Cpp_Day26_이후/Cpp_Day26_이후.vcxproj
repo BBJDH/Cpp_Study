@@ -32,6 +32,7 @@
     <ClCompile Include="211102_가상함수의 구현원리\Sword.cpp" />
     <ClCompile Include="211102_가상함수의 구현원리\Troll.cpp" />
     <ClCompile Include="211102_가상함수의 구현원리\Weapon.cpp" />
+    <ClCompile Include="211105_컨테이너\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="211102_가상함수의 구현원리\Bow.h" />
