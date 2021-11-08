@@ -15,85 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="211102_가상함수의 구현원리\Bow.cpp">
+    <ClCompile Include="211108_컨테이너_interator\main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\Goblin.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\Monster.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\Orc.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\Player.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\Random.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\Simulation.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\Smith.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\Staff.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\Sword.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\Troll.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211102_가상함수의 구현원리\Weapon.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="211105_컨테이너\main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="211102_가상함수의 구현원리\Bow.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211102_가상함수의 구현원리\Goblin.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211102_가상함수의 구현원리\Monster.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211102_가상함수의 구현원리\Orc.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211102_가상함수의 구현원리\Player.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211102_가상함수의 구현원리\Random.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211102_가상함수의 구현원리\Simulation.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211102_가상함수의 구현원리\Smith.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211102_가상함수의 구현원리\Staff.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211102_가상함수의 구현원리\Sword.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211102_가상함수의 구현원리\Troll.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="211102_가상함수의 구현원리\Weapon.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
