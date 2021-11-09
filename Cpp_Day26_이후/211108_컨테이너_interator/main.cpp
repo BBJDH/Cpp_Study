@@ -2,6 +2,7 @@
 #include<vector>
 #include<stack>
 #include<queue>
+#include<string>
 
 using namespace std;
 
@@ -154,7 +155,6 @@ int main()
 	//u.print_vector_useiter_const(v1);
 
 	vector<int> v1 = { 1,2,3,4,5,6,7 };
-
 	Usevector u;
 
 	u.print_vector_useiter_const(v1); 
@@ -230,9 +230,9 @@ int main()
 	//}  
 #pragma endregion
 
-	//char const str[3][5] = { "iam","iron","man" };
-
-	//printstr(str[0]);
+	char const * str[3][5] = { "iam","iron","man" };
+	cout << *str[0][1]<< endl;
+	//printstr(*str);
 
 
 
