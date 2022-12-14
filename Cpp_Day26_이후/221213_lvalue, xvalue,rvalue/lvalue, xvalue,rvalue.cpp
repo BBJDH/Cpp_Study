@@ -1,5 +1,4 @@
 #include<iostream>
-#include <vector>
 
 using namespace std;
 
@@ -65,14 +64,17 @@ public:
 int main()
 {
 	_int2 test{ 1,4,"첫 테스트 생성" };		//오버로딩된 생성자 호출
+	_int2 test2(static_cast<_int2&&>(test));
+
+	cout << "\n\n std::move도 동일한 동작을 할까? \n\n";
+
+	_int2 test3{ 1,4,"두번째 테스트 생성" };		//오버로딩된 생성자 호출
+	_int2 test4(std::move(test3));
 
 
-	cout << "벡터 생성 \n";
-	vector<_int2> arr{};
-
-	arr.emplace_back(test); 
-	//arr.push_back(test); 
-
+	cout << "\n이미 이동된 객체는 비어있으므로 건드리면 안된다..\n";
+	cout << "\ntest와 test3는 비어있다 출력해보면\n";
+	cout << test.Name << test3.Name;
 
 	return 0;
 }
