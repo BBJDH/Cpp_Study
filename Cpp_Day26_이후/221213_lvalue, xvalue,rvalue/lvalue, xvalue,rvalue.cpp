@@ -9,7 +9,6 @@ public:
 	int Y;
 	string Name;
 
-
 	_int2() :X{ 0 }, Y{ 0 }, Name{}
 	{
 		cout << "기본 생성자 호출\n";
