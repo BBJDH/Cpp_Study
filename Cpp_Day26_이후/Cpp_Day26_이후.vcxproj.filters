@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="블로그_이론정리\emplace_back과 push_back.cpp">
+    <ClCompile Include="221213_lvalue, xvalue,rvalue\lvalue, xvalue,rvalue.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

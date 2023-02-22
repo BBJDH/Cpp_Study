@@ -21,15 +21,19 @@ int main()
     cin.tie(NULL);
     ios_base::sync_with_stdio(false);
     vector<Base> Vector1{};
+    Vector1.resize(10);
 
-    //vector1.push_back({ 1 });
-	//vector1.emplace_back( 1 );
+    //Vector1.push_back(1);
+    //Vector1.push_back(1);
+    //Vector1.push_back(1);
+    //Vector1.push_back(1);
+    //Vector1.emplace_back( 1 );
 
-    vector<unique_ptr<int>> Unique_Ptr_Vector{};
-    Unique_Ptr_Vector.push_back(unique_ptr<int>(new int(123)));
-    Unique_Ptr_Vector.emplace_back(unique_ptr<int>(new int(123)));
-    Unique_Ptr_Vector.push_back(nullptr);
-    Unique_Ptr_Vector.emplace_back(nullptr);
+    //vector<unique_ptr<int>> Unique_Ptr_Vector{};
+    //Unique_Ptr_Vector.push_back(unique_ptr<int>(new int(123)));
+    //Unique_Ptr_Vector.emplace_back(unique_ptr<int>(new int(123)));
+    //Unique_Ptr_Vector.push_back(nullptr);
+    //Unique_Ptr_Vector.emplace_back(nullptr);
 
 	
     return 0;
