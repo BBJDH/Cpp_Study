@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="블로그_이론정리\std_map\main.cpp">
+    <ClCompile Include="블로그_이론정리\인터페이스_추상클래스\main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

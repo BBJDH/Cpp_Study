@@ -19,5 +19,5 @@ char const* add(char const*const x, char const*const y)
  }
 
 //명시적 구체화
-template int add(int const x, int const y);
-template float add<float>(float const x, float const y);
+extern template int add(int const x, int const y);
+extern template float add<float>(float const x, float const y);

@@ -59,6 +59,14 @@
 //}
 #pragma endregion
 
+template int add(int const x, int const y);
+template float add<float>(float const x, float const y);
+
+struct _int2
+{
+	int X;
+	int Y;
+};
 
 int main()
 {
@@ -72,10 +80,13 @@ int main()
 	//printarr4(arr);
 
 #pragma endregion
+	
+	char const *const str = add("test", "study");
 
-	//char const *const str = add("test", "study");
+	std::cout << str << std::endl;
 
-	//std::cout << str << std::endl;
+	_int2 A{}, B{};
+	_int2 C = add(A,B);
 
 	//delete[] str;
 
